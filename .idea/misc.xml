@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-api/v16-product-api/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-service/v16-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-web/v16-backgroud/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/springboot-fastdfs/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-web/v16-index/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/springboot-solr/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-service/v16-serach-service/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-web/v16-item/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-web/v16-serach/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/sprngboot-robbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/springboot-rabbit/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/springboot-email/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-web/v16-register/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-web/v16-login/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-web/v16-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-service/v16-users-service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/v1-6entity/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-api/v16-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-api/v16-user-api1/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/spring-data-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/sprngboot-rabbitmq/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

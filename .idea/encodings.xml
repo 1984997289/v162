@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/v16-api/v16-user-api1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-service/v16-product-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-service/v16-product-service/v16-users-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-service/v16-serach-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-service/v16-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-service/v16-users-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-temp/springboot-email" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-temp/springboot-fastdfs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-temp/springboot-rabbit" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-temp/springboot-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-temp/springboot-solr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-web/v16-backgroud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-web/v16-index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-web/v16-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-web/v16-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-web/v16-serach" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-web/v16-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v16-web/v16-sso1" charset="UTF-8" />
+  </component>
+</project>

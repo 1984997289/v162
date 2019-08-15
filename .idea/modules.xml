@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/jedis/jedis.iml" filepath="$PROJECT_DIR$/v16-temp/jedis/jedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/v16-temp/spring-data-redis/spring-data-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/springboot-email/springboot-email.iml" filepath="$PROJECT_DIR$/v16-temp/springboot-email/springboot-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/springboot-fastdfs/springboot-fastdfs.iml" filepath="$PROJECT_DIR$/v16-temp/springboot-fastdfs/springboot-fastdfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/springboot-rabbit/springboot-rabbit.iml" filepath="$PROJECT_DIR$/v16-temp/springboot-rabbit/springboot-rabbit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/v16-temp/springboot-redis/springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/springboot-solr/springboot-solr.iml" filepath="$PROJECT_DIR$/v16-temp/springboot-solr/springboot-solr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16.iml" filepath="$PROJECT_DIR$/v16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-api/v16-api.iml" filepath="$PROJECT_DIR$/v16-api/v16-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-web/v16-backgroud/v16-backgroud.iml" filepath="$PROJECT_DIR$/v16-web/v16-backgroud/v16-backgroud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-basic/v16-basic.iml" filepath="$PROJECT_DIR$/v16-basic/v16-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-basic/v16-common/v16-common.iml" filepath="$PROJECT_DIR$/v16-basic/v16-common/v16-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-basic/v16-entity/v16-entity.iml" filepath="$PROJECT_DIR$/v16-basic/v16-entity/v16-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-web/v16-index/v16-index.iml" filepath="$PROJECT_DIR$/v16-web/v16-index/v16-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-web/v16-item/v16-item.iml" filepath="$PROJECT_DIR$/v16-web/v16-item/v16-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-basic/v16-mapper/v16-mapper.iml" filepath="$PROJECT_DIR$/v16-basic/v16-mapper/v16-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-api/v16-product-api/v16-product-api.iml" filepath="$PROJECT_DIR$/v16-api/v16-product-api/v16-product-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-service/v16-product-service/v16-product-service.iml" filepath="$PROJECT_DIR$/v16-service/v16-product-service/v16-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-web/v16-register/v16-register.iml" filepath="$PROJECT_DIR$/v16-web/v16-register/v16-register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-web/v16-serach/v16-serach.iml" filepath="$PROJECT_DIR$/v16-web/v16-serach/v16-serach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-api/v16-serach-api/v16-serach-api.iml" filepath="$PROJECT_DIR$/v16-api/v16-serach-api/v16-serach-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-service/v16-serach-service/v16-serach-service.iml" filepath="$PROJECT_DIR$/v16-service/v16-serach-service/v16-serach-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-service/v16-service.iml" filepath="$PROJECT_DIR$/v16-service/v16-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-web/v16-sso/v16-sso.iml" filepath="$PROJECT_DIR$/v16-web/v16-sso/v16-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/v16-temp.iml" filepath="$PROJECT_DIR$/v16-temp/v16-temp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-api/v16-users-api/v16-users-api.iml" filepath="$PROJECT_DIR$/v16-api/v16-users-api/v16-users-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-service/v16-users-service/v16-users-service.iml" filepath="$PROJECT_DIR$/v16-service/v16-users-service/v16-users-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-web/v16-web.iml" filepath="$PROJECT_DIR$/v16-web/v16-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+
+spring:
+  mail:
+    host: smtp.163.com
+    username: 1984997289@qq.com
+    password: 123abc
+    default-encoding: UTF-8

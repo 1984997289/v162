@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="400" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jedis" />
+        <module name="spring-data-redis" />
+        <module name="springboot-email" />
+        <module name="springboot-fastdfs" />
+        <module name="springboot-rabbit" />
+        <module name="springboot-redis" />
+        <module name="springboot-solr" />
+        <module name="sprngboot-robbitmq" />
+        <module name="v16-backgroud" />
+        <module name="v16-common" />
+        <module name="v16-entity" />
+        <module name="v16-index" />
+        <module name="v16-item" />
+        <module name="v16-login" />
+        <module name="v16-mapper" />
+        <module name="v16-product-api" />
+        <module name="v16-product-service" />
+        <module name="v16-register" />
+        <module name="v16-serach" />
+        <module name="v16-serach-api" />
+        <module name="v16-serach-service" />
+        <module name="v16-service" />
+        <module name="v16-sso" />
+        <module name="v16-users-api" />
+        <module name="v16-users-service" />
+        <module name="v16-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="jedis" target="1.5" />
+      <module name="spring-data-redis" target="1.5" />
+      <module name="springboot-email" target="1.8" />
+      <module name="springboot-fastdfs" target="1.8" />
+      <module name="springboot-rabbit" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+      <module name="springboot-solr" target="1.8" />
+      <module name="v16" target="1.5" />
+      <module name="v16-api" target="1.5" />
+      <module name="v16-backgroud" target="1.8" />
+      <module name="v16-basic" target="1.5" />
+      <module name="v16-common" target="1.5" />
+      <module name="v16-entity" target="1.5" />
+      <module name="v16-index" target="1.8" />
+      <module name="v16-item" target="1.8" />
+      <module name="v16-mapper" target="1.5" />
+      <module name="v16-product-api" target="1.5" />
+      <module name="v16-product-service" target="1.8" />
+      <module name="v16-register" target="1.8" />
+      <module name="v16-serach" target="1.8" />
+      <module name="v16-serach-api" target="1.5" />
+      <module name="v16-serach-service" target="1.8" />
+      <module name="v16-service" target="1.5" />
+      <module name="v16-sso" target="1.8" />
+      <module name="v16-temp" target="1.5" />
+      <module name="v16-users-api" target="1.5" />
+      <module name="v16-users-service" target="1.8" />
+      <module name="v16-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

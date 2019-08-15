@@ -1,0 +1,19 @@
+server:
+  port: 9093
+dubbo:
+  application:
+    name: web-serach
+  registry:
+    address: 114.55.146.162:2181
+    protocol: zookeeper
+
+spring:
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 10.36.8.8
+    username: caomeng
+    password: caomeng
+    virtual-host: /caomeng
+    port: 5672
+

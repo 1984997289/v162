@@ -1,0 +1,19 @@
+spring:
+  data:
+    solr:
+      host: http://114.55.146.162:8081/solr/
+  datasource:
+    url: jdbc:mysql://localhost:3306/v16?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: sa
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+server:
+  port: 9091
+dubbo:
+  application:
+    name: index-web
+  registry:
+    address: 114.55.146.162:2181
+    protocol: zookeeper

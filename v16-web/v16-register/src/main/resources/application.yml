@@ -1,0 +1,8 @@
+server:
+  port: 9095
+dubbo:
+  application:
+    name: register-web
+  registry:
+    address: 114.55.146.162:2181
+    protocol: zookeeper

@@ -1,0 +1,35 @@
+server:
+  port: 9090
+dubbo:
+  application:
+    name: background-product
+  registry:
+    address: 114.55.146.162:2181
+    protocol: zookeeper
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/v16?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: sa
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 10.36.8.8
+    port: 5672
+    username: caomeng
+    password: caomeng
+    virtual-host: /caomeng
+#配置MQ安装地址，端口，账户信息
+
+fdfs:
+  so-timeout: 1500
+  connect-timeout: 600
+  pool:
+    jmx-enabled: false
+  thumb-image:
+    width: 100
+    height: 100
+  tracker-list: 114.55.146.162:22122
+image:
+  url: http://114.55.146.162/

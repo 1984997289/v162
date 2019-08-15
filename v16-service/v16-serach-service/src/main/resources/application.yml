@@ -1,0 +1,22 @@
+spring:
+  data:
+    solr:
+      host: http://114.55.146.162:8081/solr/
+  datasource:
+    url: jdbc:mysql://localhost:3306/v16?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: sa
+    driver-class-name: com.mysql.jdbc.Driver
+  thymeleaf:
+    cache: false
+server:
+  port: 8082
+dubbo:
+  application:
+    name: serach-provider
+  registry:
+    address: 114.55.146.162:2181
+    protocol: zookeeper
+  protocol:
+    port: 20882
+

@@ -1,0 +1,13 @@
+server:
+  port: 9092
+dubbo:
+  application:
+    name: index-web
+  registry:
+    address: 114.55.146.162:2181
+    protocol: zookeeper
+
+spring:
+  thymeleaf:
+    cache: false
+

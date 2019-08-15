@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cm.v16.mapper.TProductMapper">
+  <resultMap id="BaseResultMap" type="com.cm.v16.entity.TProduct">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="price" jdbcType="BIGINT" property="price" />
+    <result column="sale_price" jdbcType="BIGINT" property="salePrice" />
+    <result column="image" jdbcType="VARCHAR" property="image" />
+    <result column="sale_point" jdbcType="VARCHAR" property="salePoint" />
+    <result column="flag" jdbcType="BIT" property="flag" />
+    <result column="type_id" jdbcType="BIGINT" property="typeId" />
+    <result column="type_name" jdbcType="VARCHAR" property="typeName" />
+    <result column="creat_time" jdbcType="TIMESTAMP" property="creatTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, price, sale_price, image, sale_point, flag, type_id, type_name, creat_time,
+    update_time
+  </sql>
+  <select id="list" resultMap="BaseResultMap" >
+    select
+    <include refid="Base_Column_List" />
+    from t_product
+    where flag=1
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_product
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from t_product
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.cm.v16.entity.TProduct" >
+    insert into t_product (id, name, price, 
+      sale_price, image, sale_point, 
+      flag, type_id, type_name,
+      creat_time, update_time)
+    values (#{id,jdbcType=BIGINT}, #{name,jdbcType=VARCHAR}, #{price,jdbcType=BIGINT}, 
+      #{salePrice,jdbcType=BIGINT}, #{image,jdbcType=VARCHAR}, #{salePoint,jdbcType=VARCHAR}, 
+      #{flag,jdbcType=BIT}, #{typeId,jdbcType=BIGINT}, #{typeName,jdbcType=VARCHAR},
+      #{creatTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.cm.v16.entity.TProduct" useGeneratedKeys="true" keyProperty="id">
+    insert into t_product
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="price != null">
+        price,
+      </if>
+      <if test="salePrice != null">
+        sale_price,
+      </if>
+      <if test="image != null">
+        image,
+      </if>
+      <if test="salePoint != null">
+        sale_point,
+      </if>
+        flag,
+      <if test="typeId != null">
+        type_id,
+      </if>
+      <if test="typeName != null">
+        type_name,
+      </if>
+        creat_time,
+
+        update_time,
+
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        #{price,jdbcType=BIGINT},
+      </if>
+      <if test="salePrice != null">
+        #{salePrice,jdbcType=BIGINT},
+      </if>
+      <if test="image != null">
+        #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="salePoint != null">
+        #{salePoint,jdbcType=VARCHAR},
+      </if>
+      1,
+      <if test="typeId != null">
+        #{typeId,jdbcType=BIGINT},
+      </if>
+      <if test="typeName != null">
+        #{typeName,jdbcType=VARCHAR},
+      </if>
+     now(),
+     now()
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.cm.v16.entity.TProduct">
+    update t_product
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        price = #{price,jdbcType=BIGINT},
+      </if>
+      <if test="salePrice != null">
+        sale_price = #{salePrice,jdbcType=BIGINT},
+      </if>
+      <if test="image != null">
+        image = #{image,jdbcType=VARCHAR},
+      </if>
+      <if test="salePoint != null">
+        sale_point = #{salePoint,jdbcType=VARCHAR},
+      </if>
+      <if test="flag != null">
+        flag = #{flag,jdbcType=BIT},
+      </if>
+      <if test="typeId != null">
+        type_id = #{typeId,jdbcType=BIGINT},
+      </if>
+      <if test="typeName != null">
+        type_name = #{typeName,jdbcType=VARCHAR},
+      </if>
+      <if test="creatTime != null">
+        creat_time = #{creatTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.cm.v16.entity.TProduct">
+    update t_product
+    set name = #{name,jdbcType=VARCHAR},
+      price = #{price,jdbcType=BIGINT},
+      sale_price = #{salePrice,jdbcType=BIGINT},
+      image = #{image,jdbcType=VARCHAR},
+      sale_point = #{salePoint,jdbcType=VARCHAR},
+      flag = #{flag,jdbcType=BIT},
+      type_id = #{typeId,jdbcType=BIGINT},
+      type_name = #{typeName,jdbcType=VARCHAR},
+      creat_time = #{creatTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <!--批量删除-->
+  <update id="updateByIds" parameterType="com.cm.v16.entity.TProduct" >
+    update t_product SET flag=0
+      where id in
+    <foreach collection="array" item="ids" open="(" separator="," close=")">
+         #{ids}
+    </foreach>
+  </update>
+  <!--搜索同步数据-->
+  <select id="listLess" resultMap="BaseResultMap">
+    SELECT id,name,price,sale_point,image
+      FROM t_product
+      where flag=1
+  </select>
+
+</mapper>

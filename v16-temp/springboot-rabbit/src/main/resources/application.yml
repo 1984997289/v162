@@ -1,0 +1,8 @@
+
+spring:
+  rabbitmq:
+    host: 10.36.8.8
+    username: caomeng
+    password: caomeng
+    virtual-host: /caomeng
+    port: 5672
