@@ -10,7 +10,6 @@
         <module name="aaa" />
         <module name="JavaJWT" />
         <module name="jedis" />
-        <module name="jjwt" />
         <module name="m-test" />
         <module name="spring-data-redis" />
         <module name="springboot-email" />
