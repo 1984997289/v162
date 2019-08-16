@@ -48,20 +48,20 @@
         </dependency>
 
     </dependencies>
-     <!--<build>
-         &lt;!&ndash;扫描papper&ndash;&gt;
+     <build>
+         <!--扫描papper-->
          <resources>
-             &lt;!&ndash; mapper.xml文件在java目录下 &ndash;&gt;
+             <!-- mapper.xml文件在java目录下 -->
              <resource>
                  <directory>src/main/java</directory>
                  <includes>
                      <include>**/*.xml</include>
                  </includes>
              </resource>
-             &lt;!&ndash; mapper.xml文件在resources目录下&ndash;&gt;
+             <!-- mapper.xml文件在resources目录下-->
              <resource>
                  <directory>src/main/resources</directory>
              </resource>
          </resources>
-     </build>-->
+     </build>
 </project>

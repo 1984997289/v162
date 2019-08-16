@@ -24,13 +24,19 @@ public class LoginController{
     @Reference
     private IUserService userService;
 
+    @RequestMapping("login")
+    public String login(){
+        return "login";
+    }
+
+
     /**
      * 登录验证
      * @param username  用户登录信息
      * @param password  用户登录信息
      * @return  返回uuid
      */
-    @RequestMapping("login")
+    @RequestMapping("checkLogin")
     @ResponseBody
     public ResultBean login(String username, String password,
                             HttpServletResponse response){
@@ -52,7 +58,7 @@ public class LoginController{
         return  new ResultBean("404","账号或密码错误!");
     }
     //第二种简化的从客户端获取UUID的方式，使用注解@CookieValue 代码如下
-    @RequestMapping("checkIsLogin")
+    @RequestMapping("checkIsLogin2")
     public ResultBean checkIsLogin2(@CookieValue(name = "user_token",required = false) String uuid){
         if(uuid!=null){
             ResultBean resultBean=userService.checkIsLogin(uuid);

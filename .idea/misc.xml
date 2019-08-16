@@ -29,6 +29,9 @@
         <option value="$PROJECT_DIR$/v16-api/v16-user-api/pom.xml" />
         <option value="$PROJECT_DIR$/v16-api/v16-user-api1/pom.xml" />
         <option value="$PROJECT_DIR$/v16-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/aaaa/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/jjwt/pom.xml" />
+        <option value="$PROJECT_DIR$/v16-temp/jwt/pom.xml" />
         <option value="$PROJECT_DIR$/v16-temp/spring-data-redis/pom.xml" />
         <option value="$PROJECT_DIR$/v16-temp/sprngboot-rabbitmq/pom.xml" />
       </set>

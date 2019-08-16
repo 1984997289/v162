@@ -7,7 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="JavaJWT" />
         <module name="jedis" />
+        <module name="jjwt" />
+        <module name="m-test" />
         <module name="spring-data-redis" />
         <module name="springboot-email" />
         <module name="springboot-fastdfs" />
@@ -36,7 +39,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="aaaa" target="1.5" />
+      <module name="JavaJWT" target="1.5" />
       <module name="jedis" target="1.5" />
+      <module name="jjwt" target="1.5" />
+      <module name="jwt" target="1.5" />
+      <module name="m-test" target="1.5" />
       <module name="spring-data-redis" target="1.5" />
       <module name="springboot-email" target="1.8" />
       <module name="springboot-fastdfs" target="1.8" />

@@ -35,9 +35,9 @@ public class UserService extends BaseServiceImpl<TUser> implements IUserService{
             String uuid=UUID.randomUUID().toString();
             StringBuilder key=new StringBuilder("userToken").append(uuid);
             //将信息存入Redis
-            redisTemplate.opsForValue().set(key,currentUser);
+            redisTemplate.opsForValue().set(key.toString(),currentUser);
             //设置有效期 30分钟
-            redisTemplate.expire(key,30, TimeUnit.MINUTES);
+            redisTemplate.expire(key.toString(),30, TimeUnit.MINUTES);
             return new ResultBean("200",uuid);
         }
         //登录成功，返回uuid(后期查看登录状态，根据uuid查看)

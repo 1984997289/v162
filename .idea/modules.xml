@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/JavaJWT/JavaJWT.iml" filepath="$PROJECT_DIR$/v16-temp/JavaJWT/JavaJWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/v16-temp/jedis/jedis.iml" filepath="$PROJECT_DIR$/v16-temp/jedis/jedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/jjwt/jjwt.iml" filepath="$PROJECT_DIR$/v16-temp/jjwt/jjwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v16-temp/m-test/m-test.iml" filepath="$PROJECT_DIR$/v16-temp/m-test/m-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/v16-temp/spring-data-redis/spring-data-redis.iml" filepath="$PROJECT_DIR$/v16-temp/spring-data-redis/spring-data-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/v16-temp/springboot-email/springboot-email.iml" filepath="$PROJECT_DIR$/v16-temp/springboot-email/springboot-email.iml" />
       <module fileurl="file://$PROJECT_DIR$/v16-temp/springboot-fastdfs/springboot-fastdfs.iml" filepath="$PROJECT_DIR$/v16-temp/springboot-fastdfs/springboot-fastdfs.iml" />

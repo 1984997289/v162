@@ -19,7 +19,7 @@ dubbo:
     protocol: zookeeper
     address: 114.55.146.162:2181
   protocol:
-      port: 20883
+      port: 20884
 
 server:
-  port: 8083
+  port: 8084

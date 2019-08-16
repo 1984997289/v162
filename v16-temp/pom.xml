@@ -15,6 +15,12 @@
         <module>jedis</module>
         <module>spring-data-redis</module>
         <module>spring-data-redis</module>
+
+        <module>jjwt</module>
+        <module>aaaa</module>
+        <module>m-test</module>
+        <module>jjwt</module>
+        <module>JavaJWT</module>
     </modules>
 
 

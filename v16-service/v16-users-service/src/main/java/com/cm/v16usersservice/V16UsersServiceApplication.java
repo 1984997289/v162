@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableDubbo
-@MapperScan(value="com.cm.v16.mapper")
+@MapperScan("com.cm.v16.mapper")
 public class V16UsersServiceApplication {
 	
 	public static void main(String[] args) {
