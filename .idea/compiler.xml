@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="aaa" />
         <module name="JavaJWT" />
         <module name="jedis" />
         <module name="jjwt" />
@@ -39,6 +40,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="aaa" target="1.5" />
       <module name="aaaa" target="1.5" />
       <module name="JavaJWT" target="1.5" />
       <module name="jedis" target="1.5" />

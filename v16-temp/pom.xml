@@ -21,6 +21,7 @@
         <module>m-test</module>
         <module>jjwt</module>
         <module>JavaJWT</module>
+        <module>aaa</module>
     </modules>
 
 
