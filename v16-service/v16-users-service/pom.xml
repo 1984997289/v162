@@ -60,7 +60,13 @@
 			<artifactId>spring-data-redis</artifactId>
 			<version>RELEASE</version>
 		</dependency>
-	</dependencies>
+		<!--无状态单点登录，生成令牌-->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.0</version>
+		</dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
